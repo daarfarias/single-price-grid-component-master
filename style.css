@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: box-content;
+}
+body {
+  font-family: Karla, sans serif;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.wrapper {
+  width: 375px;
+  height: 970px;
+}
+
+.title-box {
+  width: 310px;
+  height: 270px;
+  background-color: white;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-righ: auto;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#title-1 {
+  font-size: 1.3em;
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+
+#subtitle {
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#description-1 {
+  font-size: 0.9em;
+  font-weight: 2.5em;
+  margin-top: 20px;
+  margin-left: 20px;
+  line-height: 25px;
+  color: hsl(240, 7%, 77%);
+}
+
+.subscription-box {
+  width: 310px;
+  height: 225px;
+  margin-left: auto;
+  margin-righ: auto;
+  background-color: hsl(179, 62%, 43%);
+}
+
+#title-2 {
+  color: white;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-left: 25px;
+  padding-top: 20px;
+}
+
+#price {
+  font-size: 1.95em;
+  color: white;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-weight: 700;
+}
+
+#per-month {
+  float: right;
+  margin-top: -26px;
+  margin-right: 140px;
+  font-size: 0.95em;
+  color: hsla(204, 43%, 93%,0.7);
+ }
+
+#description-2 {
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  color: hsla(204, 43%, 93%,0.8);
+}
+
+#sign-up-btn {
+  width: 260px;
+  height: 48px;
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  border-radius: 6px;
+  border: none;
+  margin-left: 25px;
+  background-color: hsl(71, 73%, 54%);
+  
+}
+
+
+.info-box {
+  width: 310px;
+  height: 225px;
+  margin-left: auto;
+  margin-righ: auto;
+  background-color: hsl(179, 55%, 52%);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+#title-3 {
+ color: white;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-left: 25px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+
+.info {
+  font-size: 0.85em;
+  color: hsla(204, 43%, 93%,0.8);
+  margin-left: 25px;
+  line-height: 1.5em;
+}
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  margin-left: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 900px) {
+  
+  body {
+    width: 1440px;
+    height: 800px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 635px;
+    height: 476px;
+    margin: 160px 400px;
+
+    
+  }
+  
+  .title-box {
+    width: 635px;
+    height: 215px;
+margin: 0;
+  }
+
+#title-1 {
+padding-top: 45px;
+font-size: 1.5em;
+}
+
+#subtitle {
+
+font-size: 1.1em;
+margin-bottom: -8px;
+}
+  
+#description-1 {
+font-size: 0.95em;
+width: 80%;
+margin-bottom: 40px;
+}
+
+  .subscription-box {
+    width: 50%;
+    height: 260px;
+   margin-left: 0;
+    border-bottom-left-radius: 6px;
+  }
+
+#title-2 {
+padding-top: 40px;
+}
+
+#price {
+margin-bottom: -5px;
+
+}
+
+
+#sign-up-btn {
+margin-bottom: 46px;
+
+}  
+.info-box {
+    width: 50%;
+    height: 260px;
+    margin-top: -260px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 0;
+    
+  }
+
+#title-3 {
+padding-top: 40px;
+
+}
+
+#end {
+margin-bottom: 42px;
+}
+  
+.attribution {
+margin-top: 20px;
+
+}
+   
+}
